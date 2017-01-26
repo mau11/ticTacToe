@@ -71,8 +71,3 @@ prompt.get(['player1Name'], function(err, results){
     });
   });
 });
-
-
-
-
-
