@@ -14,6 +14,9 @@ prompt.get(['player1Name'], function(err, results){
   });
 });
 
+console.log('First up ' + player1);
+console.log(gameBoard);
+
 var gameBoard = [
 ' | | ',
 '-----',
@@ -29,15 +32,15 @@ gameBoard[0][0];
 gameBoard[0][2];
 gameBoard[0][4];
 
-Row 2:
-gameBoard[1][0];
-gameBoard[1][2];
-gameBoard[1][4];
-
 Row 3:
 gameBoard[2][0];
 gameBoard[2][2];
 gameBoard[2][4];
 
-Once a play, that position can no longer be accessed.
+Row 5:
+gameBoard[4][0];
+gameBoard[4][2];
+gameBoard[4][4];
+
+Once a play is made, that position can no longer be accessed.
 */
