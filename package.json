@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A command line Tic Tac Toe game for two players.",
+  "main": "game.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "mau11",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "prompt": "^1.0.0"
+  }
+}
